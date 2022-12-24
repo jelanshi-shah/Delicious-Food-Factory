@@ -1,0 +1,103 @@
+.h{
+	color: white;
+	position: absolute;
+	left: 20%;
+	top: 35%;
+	font-size: 30px;
+}
+.p{
+	color: white;
+	position: absolute;
+	left: 20%;
+	top: 45%;
+	font-size: 20;
+}
+
+.box{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(pizza.jpg) no-repeat center;
+	background-size: cover;
+	width: 380px;
+	height: 380px;
+	margin: auto;
+	border-radius: 5px; 
+	overflow: hidden;
+	padding: 5px;
+}
+.textbox{
+	background:transparent;
+	border-top: 0;border-left: 0;border-right: 0;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	padding: 2px 0;
+	margin: 5px -1px;
+	outline: none;
+	color: #fff;
+}
+.btn{
+	cursor: pointer;
+	padding: 10px 30px;
+	border: 0;
+	position: relative;
+	outline: none;/* it disapper squer shape of button when cursor on it*/
+	background:transparent;
+}
+.btnsupport{
+	width: 210px;
+/*	box-shadow: 0 0 20px 9px orange; */
+	margin: 40px auto;
+	border-radius: 30px;
+	position: relative;
+	background-color: white;
+}
+.btnmarge{
+	width: 105px;
+	height: 100%;
+/*	background:linear-gradient(to right,blue,lightblue,pink);*/
+	background:   #e84118;
+	position: absolute;
+	border-radius: 30px;
+}
+.form{
+	top: 100px;/*gap between mergebtn nd text */
+	width: 200px; /*set length of border*/
+	position: absolute;
+	transition: .5s; /*smooth swip */
+}
+.subbtn{
+	border:0;
+	outline: none;
+	border-radius: 30px;
+	width: 150px;
+	margin:25px;
+	padding: 10px;
+	background: #e84118;
+;
+	cursor: pointer;
+/*	display: block;  commented because of no effect*/ 
+}
+#log{
+	left: 0px;
+}
+#sign{
+	left: 450px;
+}
+.about{
+	background: linear-gradient(150deg,  #090979	, #00d4ff,pink ,orange	); 
+	height: 500px;
+
+}
+.abtbox{
+		padding: 20px;
+		width:80%;
+		height:75%;
+		background:rgba(0,0,0,0.5);
+/*		box-sizing:border-box; no effect
+		transform:translate(-5%,-15%); effect of this is covered by top nd left attribute*/
+		border-radius:2%;
+		position:absolute;
+		left:10%;
+		top:5%;
+		color: white;
+		font-family:Footlight MT;font-size: 20px;
+
+ }
